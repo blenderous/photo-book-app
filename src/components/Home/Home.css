@@ -1,0 +1,24 @@
+.photo-list {
+  /* width: 768px; */
+  width: 640px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.photo-list li {
+  border: 2px solid #cc1187;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.photo-list li img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.photo-list li span {
+  line-height: 60px;
+  display: block;
+}
